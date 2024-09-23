@@ -19,7 +19,8 @@ public class MulList {
 		          Integer mulnumbers =    multifly(filteredList);
 		            finalList.add(mulnumbers);
 		}
-		System.out.println(finalList);
+		
+		System.out.println("Factories of numbers "+finalList);
 	}
 
 	private static Integer multifly(List<Integer> filteredList) {
